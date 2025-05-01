@@ -7212,11 +7212,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ybeyz\\source\\repos\\DynamicConfigurationLibrary\\ConfigurationWebApp\\ConfigurationWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\ybeyz\\source\\repos\\DKYS\\ConfigurationWebApp\\ConfigurationWebApp.csproj",
       "projectName": "ConfigurationWebApp",
-      "projectPath": "C:\\Users\\ybeyz\\source\\repos\\DynamicConfigurationLibrary\\ConfigurationWebApp\\ConfigurationWebApp.csproj",
+      "projectPath": "C:\\Users\\ybeyz\\source\\repos\\DKYS\\ConfigurationWebApp\\ConfigurationWebApp.csproj",
       "packagesPath": "C:\\Users\\ybeyz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ybeyz\\source\\repos\\DynamicConfigurationLibrary\\ConfigurationWebApp\\obj\\",
+      "outputPath": "C:\\Users\\ybeyz\\source\\repos\\DKYS\\ConfigurationWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7238,8 +7238,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ybeyz\\source\\repos\\DynamicConfigurationLibrary\\DynamicConfigurationLibrary\\DynamicConfigurationLibrary.csproj": {
-              "projectPath": "C:\\Users\\ybeyz\\source\\repos\\DynamicConfigurationLibrary\\DynamicConfigurationLibrary\\DynamicConfigurationLibrary.csproj"
+            "C:\\Users\\ybeyz\\source\\repos\\DKYS\\DynamicConfigurationLibrary\\DynamicConfigurationLibrary.csproj": {
+              "projectPath": "C:\\Users\\ybeyz\\source\\repos\\DKYS\\DynamicConfigurationLibrary\\DynamicConfigurationLibrary.csproj"
             }
           }
         }
