@@ -1,0 +1,36 @@
+﻿@model Dictionary<string, (string Type, string Value)>
+
+@{
+    ViewData["Title"] = "Config Viewer";
+}
+
+<h2>Konfigürasyonlar</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Anahtar (Key)</th>
+            <th>Tür</th>
+            <th>Değer</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Key</td>
+                    <td>@item.Value.Type</td>
+                    <td>@item.Value.Value</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr><td colspan="3">Veri bulunamadı.</td></tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-primary" href="/ConfigViewer">Yenile</a>

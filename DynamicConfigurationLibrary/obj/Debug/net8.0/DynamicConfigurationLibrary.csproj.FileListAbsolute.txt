@@ -1,0 +1,12 @@
+C:\Users\ybeyz\source\repos\DynamicConfigurationLibrary\DynamicConfigurationLibrary\bin\Debug\net8.0\DynamicConfigurationLibrary.deps.json
+C:\Users\ybeyz\source\repos\DynamicConfigurationLibrary\DynamicConfigurationLibrary\bin\Debug\net8.0\DynamicConfigurationLibrary.dll
+C:\Users\ybeyz\source\repos\DynamicConfigurationLibrary\DynamicConfigurationLibrary\bin\Debug\net8.0\DynamicConfigurationLibrary.pdb
+C:\Users\ybeyz\source\repos\DynamicConfigurationLibrary\DynamicConfigurationLibrary\obj\Debug\net8.0\DynamicConfigurationLibrary.csproj.AssemblyReference.cache
+C:\Users\ybeyz\source\repos\DynamicConfigurationLibrary\DynamicConfigurationLibrary\obj\Debug\net8.0\DynamicConfigurationLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ybeyz\source\repos\DynamicConfigurationLibrary\DynamicConfigurationLibrary\obj\Debug\net8.0\DynamicConfigurationLibrary.AssemblyInfoInputs.cache
+C:\Users\ybeyz\source\repos\DynamicConfigurationLibrary\DynamicConfigurationLibrary\obj\Debug\net8.0\DynamicConfigurationLibrary.AssemblyInfo.cs
+C:\Users\ybeyz\source\repos\DynamicConfigurationLibrary\DynamicConfigurationLibrary\obj\Debug\net8.0\DynamicConfigurationLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ybeyz\source\repos\DynamicConfigurationLibrary\DynamicConfigurationLibrary\obj\Debug\net8.0\DynamicConfigurationLibrary.dll
+C:\Users\ybeyz\source\repos\DynamicConfigurationLibrary\DynamicConfigurationLibrary\obj\Debug\net8.0\refint\DynamicConfigurationLibrary.dll
+C:\Users\ybeyz\source\repos\DynamicConfigurationLibrary\DynamicConfigurationLibrary\obj\Debug\net8.0\DynamicConfigurationLibrary.pdb
+C:\Users\ybeyz\source\repos\DynamicConfigurationLibrary\DynamicConfigurationLibrary\obj\Debug\net8.0\ref\DynamicConfigurationLibrary.dll

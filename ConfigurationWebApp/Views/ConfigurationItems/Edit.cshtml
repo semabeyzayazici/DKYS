@@ -1,0 +1,71 @@
+﻿@model ConfigurationItem
+
+@{
+    ViewData["Title"] = "Edit Configuration";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg rounded-3">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">Edit Configuration</h3>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label"></label>
+                            <input asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Type" class="form-label"></label>
+                            @Html.DropDownListFor(model => model.Type, new List<SelectListItem>
+                            {
+                            new SelectListItem { Text = "String", Value = "string" },
+                            new SelectListItem { Text = "Integer", Value = "int" },
+                            new SelectListItem { Text = "Boolean", Value = "bool" },
+                            new SelectListItem { Text = "Double", Value = "double" }
+                            }, "Select Type", new { @class = "form-select" })
+                            <span asp-validation-for="Type" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Value" class="form-label"></label>
+                            <input asp-for="Value" class="form-control" />
+                            <span asp-validation-for="Value" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" asp-for="IsActive" />
+                            <label class="form-check-label" asp-for="IsActive">
+                                @Html.DisplayNameFor(l => l.IsActive)
+                            </label>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="ApplicationName" class="form-label"></label>
+                            <input asp-for="ApplicationName" class="form-control" />
+                            <span asp-validation-for="ApplicationName" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Index" class="btn btn-outline-secondary">Back to List</a>
+                            <button type="submit" class="btn btn-success">Save Changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
